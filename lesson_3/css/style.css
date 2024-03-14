@@ -1,0 +1,45 @@
+@import url(reset.css);
+
+* {
+	color: black;
+}
+
+p {
+	color: tomato;
+}
+
+.navigation__item {
+	color: greenyellow;
+}
+
+.bio>span {
+	color: lime;
+}
+
+#back {
+	color: blueviolet;
+}
+
+[class*="promise__"] {
+	color: maroon;
+}
+
+.text * {
+	color: blue;
+}
+
+.team .title {
+	color: brown;
+}
+
+.conteiner_bio>p {
+	color: blue;
+}
+
+.text+p {
+	color: gold;
+}
+
+h3 {
+	color: blueviolet;
+}
