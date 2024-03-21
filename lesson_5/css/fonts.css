@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+
+
+@font-face {
+	font-family: "Proxina nova";
+	src: url("../fonts/proximanova_bold-webfont.woff2") format("woff2"),
+		url("../fonts/proximanova_bold-webfont.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+@font-face {
+	font-family: "Proxina nova";
+	src: url("../fonts/proximanova_light-webfont.woff2") format("woff2"),
+		url("../fonts/proximanova_light-webfont.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+
+}
+
+
+
+
+@font-face {
+	font-family: "Proxina nova";
+	src: url("../fonts/proximanova_regular-webfont.woff2") format("woff2"),
+		url("../fonts/proximanova_regular-webfont.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
