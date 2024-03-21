@@ -1,0 +1,125 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Proxima nova", sans-serif;
+	background-color: #f8f8f8;
+	font-size: 14px;
+}
+
+.nav {
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.nav-item {
+	line-height: 1.4;
+	font-weight: 600;
+	font-size: 40px;
+}
+
+
+main {
+	max-width: 1280px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+h1 {
+	font-size: 70px;
+	display: block;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+p {
+	display: block;
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+
+.content>img {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 40px;
+}
+
+.section {
+	margin: 0 0 70px 0;
+}
+
+.aboutus {
+	margin-bottom: 50px;
+
+}
+
+.aboutus-item {
+	display: inline-block;
+	margin: 0 auto;
+	width: 250px;
+	vertical-align: top;
+	padding: 0 20px;
+}
+
+.aboutus-item>h3 {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.31;
+	margin-bottom: 20px;
+}
+
+.aboutus-item>p {
+	line-height: 1.81;
+	font-weight: 300;
+	color: #2B2929;
+}
+
+.social>h2 {
+	text-transform: capitalize;
+	margin-bottom: 100px;
+	font-family: "Roboto", sans-serif;
+}
+
+.social {
+	padding: 50px 16px 76px;
+	margin: 0 auto;
+}
+
+.content {
+	margin: 0px -40px;
+	font-size: 0;
+}
+
+.social-media {
+	display: inline-block;
+	padding: 0 5px;
+	margin-bottom: 10px;
+}
+
+.info {
+	padding-bottom: 40px;
+}
+
+#contacts {
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline gold dashed;
+}
+
+.info-contacts>li {
+	text-align: center;
+	font-size: 24px;
+	line-height: 1.3;
+}
