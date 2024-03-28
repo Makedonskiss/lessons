@@ -1,0 +1,450 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+
+@import url("reset.css");
+
+body {
+	font-family: "Proxima nova", sans-serif;
+	background-color: #f8f8f8;
+	font-size: 14px;
+
+
+}
+
+/* ------секція меблі-------- */
+
+h1 {
+	font-size: 40px;
+	margin: 45px 0;
+	font-weight: 600;
+}
+
+
+
+
+.conteiner {
+	color: #2b2929;
+	max-width: 1280px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.content {
+	margin-bottom: 45px;
+}
+
+.content>img {
+	width: 100%;
+	margin-bottom: 40px;
+	border-radius: 15px;
+}
+
+.content>p {
+	line-height: 1.875;
+	/* 30px/16 */
+	font-size: 16px;
+	/* font-weight: 400; */
+	margin-bottom: 10px;
+}
+
+.content p:last-of-type {
+	margin-bottom: 0;
+}
+
+
+
+.assortment {
+	margin-bottom: 40px;
+}
+
+.assortment>h2 {
+	font-size: 20px;
+	line-height: 1.4;
+	/* 28px/20 */
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+
+
+.assortment-item {
+	display: inline-block;
+	line-height: 1.875;
+	/* 30px/16 */
+	font-size: 16px;
+	padding-left: 40px;
+
+}
+
+.assortment-item:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.assortment-item::before {
+	content: "";
+	background: url("../img/mark.svg")0 0/30px no-repeat;
+	width: 30px;
+	height: 30px;
+	margin-left: -35px;
+	vertical-align: middle;
+}
+
+.assortment-item:hover::before {
+	opacity: 0.5;
+}
+
+.assortment-reminder {
+	line-height: 1.875;
+	/* 30px/16 */
+	font-size: 16px;
+}
+
+.section {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: "Exo", sans-serif;
+
+}
+
+.background {
+	background-image: linear-gradient(173deg, rgba(0, 0, 0, 0.808) 0%, rgba(0, 0, 0, 0.877) 100%),
+		url("../img/about-section.png");
+	background-size: cover;
+}
+
+
+.about-us {
+	max-width: 1280px;
+	margin: 0% auto;
+	display: block;
+	padding: 100px 90px;
+}
+
+.about-me {
+	max-width: 993px;
+}
+
+.sub-title {
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.16;
+	/* 70px/60 */
+}
+
+.sub-title::after {
+	content: "";
+	max-width: 45%;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: block;
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 50%, rgba(36, 0, 255, 1) 100%);
+	height: 1px;
+}
+
+.about-me>p {
+	font-size: 18px;
+	line-height: 2.22;
+	/* 40px/18 */
+	text-transform: capitalize;
+	margin-top: 20px;
+	margin-bottom: 45px;
+}
+
+.about-us-list {
+	margin-left: -80px;
+	max-width: 1280px;
+	display: block;
+}
+
+.about-us-item {
+	display: inline-block;
+	font-family: "Orbitron", sans-serif;
+	font-size: 20px;
+	line-height: 1.25;
+	/* 25px/20 */
+	padding: 5px;
+	text-transform: capitalize;
+}
+
+.about-us-item:not(:last-child) {
+	margin-right: 60px;
+}
+
+.about-us-item::after {
+	content: "";
+	margin-left: 60px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 50%, rgba(36, 0, 255, 1) 100%);
+}
+
+.about-us-item:hover {
+	outline: 1px solid;
+	color: magenta;
+	border-radius: 5px;
+}
+
+.about-us-item a:visited {
+	color: red;
+}
+
+.contacts {
+	max-width: 1280px;
+	margin: 0% auto;
+	display: block;
+	padding: 100px 90px;
+}
+
+.contacts-sub-title {
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.16;
+	/* 70px/60 */
+}
+
+.contacts-sub-title::after {
+	content: "";
+	max-width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: block;
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 50%, rgba(36, 0, 255, 1) 100%);
+	height: 1px;
+}
+
+.contacts-list {
+	margin: 100px 0;
+}
+
+.contact-list-item {
+	display: inline-block;
+	font-size: 20px;
+	line-height: 1.25;
+	/* 25px/20 */
+	padding: 10px;
+	text-transform: capitalize;
+}
+
+.contact-list-item:not(:last-child) {
+	margin-right: 60px;
+}
+
+.contact-list-item:hover {
+	outline: 1px solid;
+	color: magenta;
+	border-radius: 5px;
+}
+
+.contact-list-item:nth-child(1)::before {
+	content: "";
+	background-image: url("../img/phone.svg");
+	background-repeat: no-repeat;
+	margin-left: 5px;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+.contact-list-item:nth-child(2)::before {
+	content: "";
+	background-image: url("../img/location.svg");
+	background-repeat: no-repeat;
+	margin-left: 5px;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+.contact-list-item:nth-child(3)::before {
+	content: "";
+	background-image: url("../img/mail.svg");
+	background-repeat: no-repeat;
+	margin-left: 5px;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+
+/* -----Game0------ */
+.game {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+
+}
+
+.game-wrap {
+	display: inline-block;
+	min-height: 650px;
+	min-width: 500px;
+	text-align: initial;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 0;
+	background: url("../img/billy-saw.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	border-radius: 15px;
+	box-shadow: 15px 12px 5px 0px rgba(0, 0, 0, 0.55);
+}
+
+.game-start {
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+
+}
+
+.game-line-1 {
+	display: inline-block;
+	background-color: aqua;
+	height: 30px;
+	width: 70%;
+	visibility: hidden;
+}
+
+
+
+.game-line-1-2 {
+	display: block;
+	width: 30px;
+	height: 70px;
+	background-color: aqua;
+	visibility: hidden;
+	margin-left: 420px;
+}
+
+
+
+
+.game-line-2 {
+	display: inline-block;
+	background-color: aqua;
+	height: 22px;
+	width: 86%;
+	margin-left: 20px;
+	visibility: hidden;
+}
+
+
+
+
+.game-line-2-2 {
+	display: block;
+	width: 18px;
+	height: 55px;
+	background-color: aqua;
+	margin-left: 20px;
+	visibility: hidden;
+}
+
+.game-line-3 {
+	display: inline-block;
+	background-color: aqua;
+	height: 15px;
+	width: 64%;
+	margin-left: 20px;
+	visibility: hidden;
+}
+
+.game-line-3-2 {
+	display: inline-block;
+	width: 12px;
+	height: 55px;
+	background-color: aqua;
+	margin-bottom: -40px;
+	visibility: hidden;
+}
+
+.game-line-4 {
+	display: inline-block;
+	background-color: aqua;
+	height: 12px;
+	width: 50%;
+	margin-top: 28px;
+	margin-left: 90px;
+	visibility: hidden;
+}
+
+.game-line-4-2 {
+
+	display: block;
+	width: 10px;
+	height: 75px;
+	background-color: aqua;
+	margin-left: 90px;
+	visibility: hidden;
+}
+
+.game-end {
+	display: inline-block;
+	margin-left: 30px;
+	width: 100px;
+	height: 100px;
+	background-image: url("../img/you-win.webp");
+	background-size: cover;
+	visibility: hidden;
+}
+
+.game-start:hover+.game-line-1,
+.game-line-1:hover {
+	cursor: pointer;
+	visibility: visible;
+}
+
+.game-line-1:hover~.game-line-1-2,
+.game-line-1-2:hover {
+	cursor: pointer;
+	visibility: visible;
+}
+
+.game-line-1-2:hover+.game-line-2,
+.game-line-2:hover {
+	cursor: pointer;
+	visibility: visible;
+}
+
+.game-line-2:hover+.game-line-2-2,
+.game-line-2-2:hover {
+	cursor: pointer;
+	visibility: visible;
+}
+
+.game-line-2-2:hover+.game-line-3,
+.game-line-3:hover {
+	cursor: pointer;
+	visibility: visible;
+}
+
+.game-line-3:hover+.game-line-3-2,
+.game-line-3-2:hover {
+	cursor: pointer;
+	visibility: visible;
+}
+
+.game-line-3-2:hover+.game-line-4,
+.game-line-4:hover {
+	cursor: pointer;
+	visibility: visible;
+}
+
+.game-line-4:hover+.game-line-4-2,
+.game-line-4-2:hover {
+	cursor: pointer;
+	visibility: visible;
+}
+
+.game-line-4-2:hover+.game-end,
+.game-end:hover {
+	cursor: pointer;
+	visibility: visible;
+}
