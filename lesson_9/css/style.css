@@ -1,0 +1,11 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,regular&display=swap");
+
+@import url("reset.css");
+
+body {
+	font-family: "Proxima nova", sans-serif;
+	font-size: 16px;
+}
